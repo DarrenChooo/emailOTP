@@ -16,7 +16,9 @@ Add your configuration values to the .env file, following the provided template 
 Note: The .env file should contain sensitive information and should never be committed to version control. Ensure it is added to your .gitignore file.
 
 # Usage
-Describe how users can use your module and provide examples.
+In the website, type in a valid email address and check for the email sent to you. Then, type in the valid OTP for success message.
 
 # Testing
 To test the module, you can use the following command:
+- npm start
+- npm run dev
