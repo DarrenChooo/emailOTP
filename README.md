@@ -2,10 +2,10 @@
 This module is designed to provide a secure email OTP (One-Time Password) functionality for enterprise applications. It allows the generation and sending of OTP codes to user email addresses, as well as the verification of user-entered OTP codes.
 
 ## Assumptions
-Only one user using the website at a time
-On Local and not Cloud
-No database configured for this Pesudo Code (Only Client and Server side)
-Checking of Valid Email with Bootstrap email validation pattern, doesn't include checking of SMTP (Simple Mail Transfer Protocol) or DNS (Domain Name System), etc. 
+- Only one user using the website at a time
+- On Local and not Cloud
+- No database configured for this Pesudo Code (Only Client and Server side)
+- Checking of Valid Email with Bootstrap email validation pattern, doesn't include checking of SMTP (Simple Mail Transfer Protocol) or DNS (Domain Name System), etc. 
 
 ## Installation
 Clone the repository and install the dependencies using npm:
