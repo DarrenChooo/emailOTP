@@ -24,8 +24,9 @@ emailForm.addEventListener('submit', function(event) {
     const userEmail = document.getElementById('emailInput').value;
 
     // Define a regular expression pattern to match the domain '.dso.org.sg'
-    const domainPattern = /@gmail\.com$/i;
     // const domainPattern = /@.*\.dso\.org\.sg$/i;
+    
+    const domainPattern = /@gmail\.com$/i; // This pattern is for '@gmail.com' for testing purposes.
 
     // Check if the email domain matches the pattern
     if (domainPattern.test(userEmail)) {

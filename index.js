@@ -45,8 +45,9 @@ app.post('/sendEmail', (req, res) => {
     const { email, emailBody } = req.body;
 
     // Define a regular expression pattern to match the domain '.dso.org.sg'
-    const domainPattern = /@gmail\.com$/i;
     // const domainPattern = /@.*\.dso\.org\.sg$/i;
+    
+    const domainPattern = /@gmail\.com$/i; // This pattern is for '@gmail.com' for testing purposes.
 
     // Configure Nodemailer transporter
     const transporter = nodemailer.createTransport({
