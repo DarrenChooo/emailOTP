@@ -1,15 +1,8 @@
 # Your Module Name
-
-Short description or introduction of your module.
+This module is designed to provide a secure email OTP (One-Time Password) functionality for enterprise applications. It allows the generation and sending of OTP codes to user email addresses, as well as the verification of user-entered OTP codes.
 
 ## Installation
-
 Clone the repository and install the dependencies using npm:
-
-```bash
-git clone https://github.com/your-username/your-module.git
-cd your-module
-npm install
 
 # Configuration
 Create an .env file in the project directory.
