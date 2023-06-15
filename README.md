@@ -1,4 +1,4 @@
-# Your Module Name
+# Email OTP Module
 This module is designed to provide a secure email OTP (One-Time Password) functionality for enterprise applications. It allows the generation and sending of OTP codes to user email addresses, as well as the verification of user-entered OTP codes.
 
 ## Assumptions
