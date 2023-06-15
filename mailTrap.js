@@ -1,3 +1,7 @@
+///////////////////////////////////////////////////
+// IGNORE THIS - Unable to use mailtrap as it takes one business day to process domain name
+///////////////////////////////////////////////////
+
 const express = require('express');
 const cors = require('cors');
 const nodemailer = require('nodemailer');
