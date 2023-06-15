@@ -8,7 +8,7 @@ This module is designed to provide a secure email OTP (One-Time Password) functi
 - Checking of Valid Email with Bootstrap email validation pattern, doesn't include checking of SMTP (Simple Mail Transfer Protocol) or DNS (Domain Name System), etc. 
 
 ## Installation
-Clone the repository and install the dependencies using npm:
+Clone the repository and install the dependencies using npm
 
 # Configuration
 Create an .env file in the project directory.
