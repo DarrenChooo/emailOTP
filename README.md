@@ -18,6 +18,9 @@ Note: The .env file should contain sensitive information and should never be com
 # Usage
 In the website, type in a valid email address and check for the email sent to you. Then, type in the valid OTP for success message.
 
+## Youtube Demo
+https://youtu.be/xYAwC0c-2Us
+
 # Testing
 To test the module, you can use the following command:
 - npm start
