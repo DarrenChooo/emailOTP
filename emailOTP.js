@@ -99,24 +99,24 @@ function startTimer() {
 
     // Update the countdown timer every second
     const timerInterval = setInterval(() => {
-    secondsRemaining--; // Decrement the seconds remaining
+        secondsRemaining--; // Decrement the seconds remaining
 
-    if (secondsRemaining <= 0) {
-        // OTP validity has expired
-        clearInterval(timerInterval);
-        countdownTimer.textContent = ''; // Clear the timer text
+        if (secondsRemaining <= 0) {
+            // OTP validity has expired
+            clearInterval(timerInterval);
+            countdownTimer.textContent = ''; // Clear the timer text
 
-        // Hide the verify OTP form
-        verifyOTPForm.classList.add('d-none');
+            // Hide the verify OTP form
+            verifyOTPForm.classList.add('d-none');
 
-        // Show the email form
-        emailForm.classList.remove('d-none');
+            // Show the email form
+            emailForm.classList.remove('d-none');
 
-        // Reload the page
-        location.reload();
-    } else {
-        countdownTimer.textContent = `OTP is valid for ${secondsRemaining} seconds`; // Update the timer text
-    }
+            // Reload the page
+            location.reload();
+        } else {
+            countdownTimer.textContent = `OTP is valid for ${secondsRemaining} seconds`; // Update the timer text
+        }
     }, 1000);
 }
 
@@ -131,6 +131,7 @@ verifyOTPForm.addEventListener('submit', function(event) {
     if (userOTP === generatedOTP) {
         // Show the success message
         successVerification.classList.remove('d-none')
+        reloadBtn.classList.remove('d-none')
 
         // Hide the verify OTP form
         verifyOTPForm.classList.add('d-none');
